@@ -9,3 +9,5 @@ npm install hubot-consul-brain
 
 ## Usage
 Then add `hubot-consul-brain` to the list of `external-scripts.json`
+The script expects `CONSUL_HOST` and `CONSUL_PORT` or it will just use default
+values: `127.0.0.1` and `8500`.

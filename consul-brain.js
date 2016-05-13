@@ -1,6 +1,9 @@
 var consul = require("consul")({
   host: process.env.CONSUL_HOST || "127.0.0.1",
-  port: process.env.CONSUL_PORT || "8500"
+  port: process.env.CONSUL_PORT || "8500",
+  defaults: {
+    token: process.env.CONSUL_TOKEN || ""
+  }
 });
 
 var prefix = "hubot:storage";

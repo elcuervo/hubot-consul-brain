@@ -6,7 +6,7 @@ var consul = require("consul")({
   }
 });
 
-var prefix = "hubot:storage";
+var prefix = "hubot/hubot:storage";
 
 module.exports = function(robot) {
   robot.brain.setAutoSave(false);

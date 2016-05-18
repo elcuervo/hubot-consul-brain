@@ -15,3 +15,11 @@ values: `127.0.0.1` and `8500`.
 
 Additionally  you can also pass in `CONSUL_TOKEN` if your consul instance uses
 ACLs.
+
+The following consul ACL rule will allow access only to `hubot/`.
+
+```
+key "hubot/" {
+  policy = "write"
+}
+```

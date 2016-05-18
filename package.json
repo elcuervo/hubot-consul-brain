@@ -1,6 +1,6 @@
 {
   "name": "hubot-consul-brain",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "consul-brain.js",
   "dependencies": {
     "consul": "^0.20.0"
